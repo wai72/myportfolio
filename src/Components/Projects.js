@@ -31,7 +31,7 @@ const Projects = () => {
       </div>
 
       <h1 className='RecentWorkTextHeading'>My <b>Recent Works</b></h1>
-      <div className='RecentWorkPage'>
+      {/* <div className='RecentWorkPage'>
         <div className='RecentWorkText'>
           <p>
           <b>SmartHR App</b>: Mobile App for KBZ Bank internal employees. All the features are related to HR such as Attendance, CheckIn/CheckOut by Geolocation, Leave/OT, Learning and Training, HR Announcement, Payslip, etc.
@@ -70,22 +70,22 @@ Clean Architecture, Jetpack Libraries, Git, Bitbucket, Jira
 
           </Tilt>
         </div>
-      </div>
+      </div> */}
       
       <h1 className='RecentWorkTextHeading'>My <b>Publications</b></h1>
       <br/>
       <br/>
-      <div className='project'>
+      {/* <div className='project'>
         <ProjectBox projectPhoto={MMCalendarImage} projectName="MMCalendar"/>
         <ProjectBox projectPhoto={MMENGDictionaryImage} projectName="MMENGDictionary" />
         <ProjectBox projectPhoto={MMThetponeImage} projectName="MMThetpone" />
         <ProjectBox projectPhoto={ENGMMDictionaryImage} projectName="ENGMMDictionary" />
         <ProjectBox projectPhoto={MyHealthImage} projectName="MyHealth" />
         <ProjectBox projectPhoto={DhammaImage} projectName="Dhamma"/>
-      </div>
+      </div> */}
       
       <h1 className='RecentWorkTextHeading'>My <b>Recent Projects</b> ( Academic )</h1>
-      <div className='RecentWorkPage'>
+      {/* <div className='RecentWorkPage'>
           <Tilt>
               <Lottie 
               className="illustration" 
@@ -127,7 +127,7 @@ Clean Architecture, Jetpack Libraries, Git, Bitbucket, Jira
           <br/>
           </p>
         </div>
-      </div>
+      </div> */}
 
       
     </div>

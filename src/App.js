@@ -48,7 +48,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/MY-PROFILE" element={<Home/>} />
-        <Route path="/khun-aung" element={<Home/>} />
+        <Route path="/grace" element={<Home/>} />
         <Route path="/About" element={<About/>}/>
         <Route path="/Project" element={<Project/>}/>
         <Route path="/Resume" element={<Resume/>}/>

@@ -15,7 +15,7 @@ const Home = () => {
       <div className='HomePage'>
         <div className='HomeText'>
           <h1>Hi There!</h1>
-          <h1>I'M <b>KHUN AUNG</b></h1>
+          <h1>I'M <b>GRACE</b></h1>
           <Typed/>   
         </div>
       <img className='avatarBox' src={Khun} alt=""/>
