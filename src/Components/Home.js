@@ -3,7 +3,7 @@ import Lottie from  "lottie-react";
 import Typed from "./Typed.js";
 import Skills from './Skills.js';
 import Tilt from 'react-parallax-tilt';
-import Khun from '../images/khun.png'
+import Grace from '../images/grace.jpg'
 import CoderGuy from '../LottieFiles/coder-man2.json'
 import CoderBoy from '../LottieFiles/coderboy.json'
 import { ImPointRight } from "react-icons/im";
@@ -18,7 +18,7 @@ const Home = () => {
           <h1>I'M <b>GRACE</b></h1>
           <Typed/>   
         </div>
-      <img className='avatarBox' src={Khun} alt=""/>
+      <img className='avatarBox' src={Grace} alt=""/>
       </div>
 
       <div className='AboutPage'>
