@@ -29,9 +29,9 @@ const Home = () => {
             that impacts lives. 
             I want to do work that challenges me as a developer and work that I can 
             be proud of.<br /><br />
-            I am fluent in <b>Kotlin</b> and <b>Java </b> to develop Android mobile apps and I have successfully published several apps the on <a href="https://play.google.com/store/apps/developer?id=K.H+Innovation" target='_blank'>Google Play Store</a>.
-            I know a bit of <b>Javascript, Express, React,</b> and <b>React Native</b> and have worked on a few 
-            academic projects by using them.<br />
+            I am fluent in <b>React Native</b> and <b>Flutter </b> to develop Android mobile apps.
+            I know a bit of <b>Javascript, React, Java</b> and <b>Android Native</b> and have worked on a few 
+            projects by using them.<br />
             I plan to learn <b>Machine Learning</b>, <b>Big Data,</b> and<b> AI</b> in the near future. <br /><br />
           </p>
         </div>

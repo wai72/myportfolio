@@ -3,23 +3,24 @@ import GooglePlayButton from 'react-mobile-store-button'
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    // MMCalendarDesc: "A Calendar with Myanmar versus English date. It can be calculated and converted to the date between Myanmar and English. Users can add notes, events, and memories to the note features. \nUtilized Technology:  Kotlin, MVVM, LiveData, Room, Coroutine, Dagger/Hilt, Navigation, Firebase, and ironSource Monetization.",
-    // MMCalendarPlayStore: "https://play.google.com/store/apps/details?id=com.nanhm.mmcalendar",
+    APlusEWalletDesc: "A Calendar with Myanmar versus English date. It can be calculated and converted to the date between Myanmar and English. Users can add notes, events, and memories to the note features. \nUtilized Technology:  Kotlin, MVVM, LiveData, Room, Coroutine, Dagger/Hilt, Navigation, Firebase, and ironSource Monetization.",
+    APlusPlayStore: "https://play.google.com/store/apps/details?id=com.jits.mbanking.abank.consumer&hl=en&gl=US",
+    APlusAppStore: "https://apps.apple.com/us/app/a-wallet/id1543663742",
 
-    // ENGMMDictionaryDesc: "An offline dictionary allows users to search for the explanation of each English word in the Myanmar language. It also provides word of the day; the user can memorize at least one English word randomly every day. Utilized Technology: Kotlin, MVVM, Room, Coroutine, Dagger/Hilt, Google Speech Recognition, Firebase, and ironSource Monetization.",
-    // ENGMMDictionaryPlayStore: "https://play.google.com/store/apps/details?id=com.peteaung.engmmdictionary",
+    PayboltCryptoDesc: "An offline dictionary allows users to search for the explanation of each English word in the Myanmar language. It also provides word of the day; the user can memorize at least one English word randomly every day. Utilized Technology: Kotlin, MVVM, Room, Coroutine, Dagger/Hilt, Google Speech Recognition, Firebase, and ironSource Monetization.",
+    PayboltCryptoPlayStore: "https://play.google.com/store/apps/details?id=com.fincrypt.paybolt",
+    PayboltCryptoAppStore: "https://apps.apple.com/us/app/paybolt-crypto/id1599880290",
 
-    // DhammaDesc: "An app helps those who are interested in reading the Buddha Dhamma Script and listening to audio from Buddhist Monks, Abidhama Teachers, Meditation Trainers, etc. Users can also read and listen to them offline by downloading PDF Docs, and MP3 Audios Files. Utilize Technology: Kotlin, MVVM, Room, Coroutine, HIlt, Navigation, ExoPlayer, Firebase, and ironSource Monetization.",
-    // DhammaPlayStore:"https://play.google.com/store/apps/details?id=com.haymarsan.dhammapiya",
+    AYAPayMerchantDesc: "An app helps those who are interested in reading the Buddha Dhamma Script and listening to audio from Buddhist Monks, Abidhama Teachers, Meditation Trainers, etc. Users can also read and listen to them offline by downloading PDF Docs, and MP3 Audios Files. Utilize Technology: Kotlin, MVVM, Room, Coroutine, HIlt, Navigation, ExoPlayer, Firebase, and ironSource Monetization.",
+    AYAPayMerchantPlayStore:"https://play.google.com/store/apps/details?id=com.fincrypt.payboltmerchant",
+    AYAPayMerchantAppStore: "https://apps.apple.com/us/app/aya-pay-merchant/id1485836285",
 
-    // MMENGDictionaryDesc: "A dictionary app that allow user to search the translation of each Burmese word into English. It's useful for those who learn English vs Burmese Language. Utilized Kotlin, MVVM, Room, Google Speech Recognition, Firebase SDK and ironSource SDK.",
-    // MMENGDictionaryPlayStore: "https://play.google.com/store/apps/details?id=com.hms.myanmar_englishdictionarytranslator",
+    PayboltBusinessDesc: "A dictionary app that allow user to search the translation of each Burmese word into English. It's useful for those who learn English vs Burmese Language. Utilized Kotlin, MVVM, Room, Google Speech Recognition, Firebase SDK and ironSource SDK.",
+    PayboltBusinessPlayStore: "https://apps.apple.com/us/app/paybolt-business/id1612770866",
+    PayboltBusinessAppStore: "https://apps.apple.com/us/app/paybolt-business/id1612770866",
 
-    // MMThetponeDesc: "A Spelling App for those who learning Myanmar Word. It can be searched and checked the Myanmar over 200 provided words. A spelling Quiz Game is also provided and users can practice the word spelling. Utilized Technology: Kotlin, MVVM, Room, Coroutine, Hilt, Firebase, and ironSource Monetization.",
-    // MMThetponePlayStore: "https://play.google.com/store/apps/details?id=com.ottsolution.myanmarthatpone",
-
-    // MyHealthDesc: "The app provides the following features: health information and knowledge, BMI Calculator, Due Date Calculator, and full descriptions of each result. Utilized Technology: Kotlin, MVVM, Room, Coroutine, Hilt, Navigation, Retrofit, Firebase, and ironSource Monetization.",
-    // MyHealthPlayStore: "https://play.google.com/store/apps/details?id=com.peteaung.myhealth"
+    HtwettoeDesc: "A Spelling App for those who learning Myanmar Word. It can be searched and checked the Myanmar over 200 provided words. A spelling Quiz Game is also provided and users can practice the word spelling. Utilized Technology: Kotlin, MVVM, Room, Coroutine, Hilt, Firebase, and ironSource Monetization.",
+    HtwettoePlayStore: "https://play.google.com/store/search?q=htwet+toe+app&c=apps&hl=en&gl=US",
 
   }
 
@@ -38,15 +39,21 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
             <p className='projectDesc'>{desc[projectName + 'Desc']}</p>
             <br />
 
+              {/* <div className='x-flex'>
+             <MobileStoreButton store="android" width={150} url={desc[projectName+"PlayStore"]} linkProps={{title: "Android Store Button"}} />
+            <MobileStoreButton store="ios" width={150} url={'https://apps.apple.com/us/app/paybolt-business/id1612770866'} linkProps={{title: "Android Store Button"}} />
+             </div> */}
+         
+        </div>
             
             <div>
               <GooglePlayButton
                 className={"custom-style"}
-                store="android"
+                store={"ios"}
                 url={desc[projectName+"PlayStore"]}
-                linkProps={{ title: 'Android Store Button' }}/>
+                linkProps={{ title: 'Store Button' }}/>
             </div>
-        </div>
+        
     </div>
   )
 }

@@ -21,8 +21,8 @@ const About = () => {
           <h1 className='AboutTextHeading' >Know who <b>I'M</b></h1>
           <p>
             Hi, my name is <b>Grace</b> and I am from Yangon, Myanmar.
-            I'm a <b>Software Engineer (Mobile Developer)</b> and have completed on-campus studies and currently taking distance courses to complete a <b>Master's Degree in Computer Science</b>. <br/><br/>
-            I have <b>5 years of experiences</b> in developing Android Mobile Applications in financial industry.
+            I'm a Software Engineer specializing in <b>Mobile development</b> . <br/><br/>
+            I have <b>7 years of experiences</b> in developing Android Mobile Applications in financial industry.
             I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
           </p>
@@ -78,7 +78,7 @@ const About = () => {
       <h1 className='SkillsHeading'>Days I <b>Code</b></h1>
       <div className='skills'>
       <GitHubCalendar
-        username="ksmaprince"
+        username="wai7"
         blockSize={15}
         blockMargin={5}
         color="#c084f5"
