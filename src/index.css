@@ -360,10 +360,19 @@ b{
 .RecentWorkPage{
   display: flex;
   justify-content: space-evenly;
-  min-height: 80vh;
-  padding: 25px;
+  min-height: 60vh;
+  padding: 16px;
 }
 
+.feature-list {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.feature-list li {
+  text-indent: -1.5em; 
+  padding-left: 1.5em; 
+}
 .RecentWorkText{
   width: 50%;
   font-weight: 500;
@@ -496,6 +505,7 @@ b{
   justify-content: center;
   margin: 25px 5%;
 }
+
 
 a.Link{
   color: #00AAFF;

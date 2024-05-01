@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectBox from './ProjectBox';
 import APlusImage from '../images/APlusWalletApp.png'
+import AYAPayWallet from '../images/AYAPayWallet.png'
 import PayboltWalletImage from '../images/PayboltWalletApp.png'
 import PayboltBusinessImage from '../images/PayboltBusiness.png'
 import AYAPayMerchantImage from '../images/AYAPayMerchant.png'
@@ -24,62 +25,24 @@ const Projects = () => {
           </Tilt>
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >My <b>Project</b> Experiences</h1>
-          <p>I’ve contributed to my <b>job company’s projects</b>, in developing, maintaining, and deploying mobile applications.<br/><br/>.
+          <p>I have extensive experience in designing, developing, and building over 7 e-wallet apps using <b>React Native and Flutter</b> and one agricultural app tailored for farmers(like social media app) using <b>Android Native(Java and Kotlin)</b>. Additionally, I am the owner of <b>AYA Pay merchant app</b>, where I am responsible for designing the app's UI/UX, documenting APIs, and integrating third-party services. I have successfully released these apps to various app stores, including the<b>App Store, Google Play Store, and Huawei Store</b> . My hands-on involvement in every aspect of the app development process has equipped me with a comprehensive understanding of mobile app development and a proven track record of delivering high-quality products to market.
           </p>
         </div>
       </div>
-
-      <h1 className='RecentWorkTextHeading'>My <b>Recent Works</b></h1>
-      <div className='RecentWorkPage'>
-        <div className='RecentWorkText'>
-          <p>
-          <b>SmartHR App</b>: Mobile App for KBZ Bank internal employees. All the features are related to HR such as Attendance, CheckIn/CheckOut by Geolocation, Leave/OT, Learning and Training, HR Announcement, Payslip, etc.
-          </p><br/>
-          <p>
-          <b>Digital Onboarding</b>: Android Application for KBZ Bank internal use to onboard the customer to the bank. The main feature is bank account opening function by using mobile device portably.
-          </p><br/>
-          <p>
-          <b>KBZConnect</b>: Mobile App that allows the bank customer to search the nearby branches and ATM locations and currency exchange rates.
-          <a className="Link" href='https://play.google.com/store/apps/details?id=com.kbzbank.kbzconnect&hl=en_US&gl=US' target='_blank'> See on Google Play</a>
-          
-          </p><br/>
-          <p>
-          <b>mBanking</b>: A banking app that allows the user to view account balances & transactions, transfer money, and pay bills from the mobile device, etc.
-          <a className="Link" href='https://play.google.com/store/apps/details?id=com.ofss.fcdb.mobile.android.phone.kbz.launcher&hl=en_US&gl=US' target='_blank'> See on Google Play</a>
-          </p>
-          <p>
-          <b>KBZ Pay</b>:A mobile wallet app along with banking functions that is simple and convenient to transact money in Myanmar. I was responsible for deploying the app to the Play Store, Xiaomi, Huawei, and the internal app server.
-          <a className="Link" href='https://play.google.com/store/apps/details?id=com.kbzbank.kpaycustomer&hl=en_US&gl=US' target='_blank'> See on Google Play</a>
-          
-          </p><br/>
-        </div>
-          <div className='RecentWorkText'>
-          <p>
-          <b>KBZ Catalyst</b>: Mobile App for KBZ Bank internal employees. It collects the employees' KYC data including Biometric data such as face capturing, voice recording, etc.
-          </p>
-          <Tilt>
-              <Lottie 
-              className="illustration" 
-              animationData={Mobile} 
-              loop={true} 
-            />
-            <b>Utilized Tool & Technology</b>
-            <br/>Java, Kotlin, Android Studio, MVP, MVVM, MVI, RxJava, Coroutine, Retrofit, KOIN, Dagger-Hilt, 
-Clean Architecture, Jetpack Libraries, Git, Bitbucket, Jira
-          </Tilt>
-        </div>
-      </div>
-      
+   
+      <h1 className='RecentWorkTextHeading'>My <b>Publications</b></h1>
+      <br/>
       <br/>
       <div className='project'>
-        <ProjectBox projectPhoto={APlusImage} projectName="APlusEWallet"/>
+        {/* <ProjectBox projectPhoto={APlusImage} projectName="APlusEWallet"/> */}
         <ProjectBox projectPhoto={PayboltWalletImage} projectName="PayboltCrypto" />
         <ProjectBox projectPhoto={AYAPayMerchantImage} projectName="AYAPayMerchant" />
         <ProjectBox projectPhoto={PayboltBusinessImage} projectName="PayboltBusiness" />
+        <ProjectBox projectPhoto={AYAPayWallet} projectName="AYAPayWallet" />
         <ProjectBox projectPhoto={HtwettoeImage} projectName="Htwettoe" />
       </div>
       
-      <h1 className='RecentWorkTextHeading'>My <b>Recent Projects</b></h1>
+      <h1 className='RecentWorkTextHeading'>My <b>Current Projects</b></h1>
       <div className='RecentWorkPage'>
           <Tilt>
               <Lottie 
@@ -89,20 +52,32 @@ Clean Architecture, Jetpack Libraries, Git, Bitbucket, Jira
             />
             <b>Utilized Tool & Technology</b>
             <br/>
-            <br/>Android, Kotlin, Jave, Jetpack Compose, MVVM, Retrofit, Coroutine,
+            <br/>Flutter, MVVM, GetX, Retrofit, Websocket, Deeplinking, InApp Webview(JavaScript Channel)
             <br/>
-            <br/>HTML, CSS, JavaScript, React Native
+            <br/>Java, Microservices, JavaScript, React, Redis, Nacos, MySql, Huawei cloud and AWS
             <br/>
           </Tilt>
 
         <div className='RecentWorkText'>
           <p>
-          <b>MovieVault</b> : A native android application using Jetpack Compose for UI development. This app serves the interface for user to register, log in, browse movie collections, watch movie trailers, and save their favorites. Utilized Kotlin, Jetpack Compose, MVVM, Retrofit, Coroutine, Hilt, Navigation Graph, Android Studio. 
-          <a className = "Link" href='https://github.com/ksmaprince/MovieValut' target='_blank'> See on Github.</a>
+          <h3><b>A Plus E-Wallet</b></h3>
+          <br></br>
+           Our e-wallet app offers users a convenient and secure way to manage their finances on-the-go. With our app, users can easily store funds, make payments, and track their transactions all in one place. 
+          <div>
+      <h4>Key features of our E-Wallet app:</h4>
+      
+      <ul className="feature-list">
+      <li><b>Fund Management</b>: Users can securely store funds in their digital wallet, eliminating the need to carry physical cash.</li>
+      <li><b>Payment Options</b>: Our app supports a variety of payment methods, including QR code payments, online transfers, and peer-to-peer transactions.</li>
+      <li><b>Bill Payment</b>: Users can conveniently pay their utility bills, mobile top-ups, and other expenses directly from the app.</li>
+      <li><b>Merchant Integration</b>: Our app seamlessly integrates with merchants, allowing users to make purchases both online and in-store.</li>
+      <li><b>Security</b>: We prioritize the security of our users' funds and personal information. Our app employs advanced encryption techniques and multi-factor authentication to ensure a safe and secure experience.</li>
+      <li><b>Transaction History</b>: Users can easily track their transaction history, view past payments, and monitor their spending habits.</li>
+      <li><b>Customization</b>: Our app offers users the flexibility to customize their digital wallet experience, including personalized settings and notifications.</li>
+    </ul>
+    </div>
+    I am responsible for deploying the app to the Play Store, Xiaomi, Huawei, and the internal app server.<a className = "Link" href='https://play.google.com/store/apps/details?id=com.jits.mbanking.abank.consumer&hl=en&gl=US' target='_blank'>See on Google Play</a> and <a className = "Link" href='https://apps.apple.com/us/app/paybolt-crypto/id1599880290' target='_blank'>See on App Store.</a>
            <br/><br/>
-           <b>Movie-Vault-WebApp</b>: A RESTful API web application, serve as a backend for Movie-Vault project, capable of efficiently storing, retrieving and processing both movie and user information. Utilized Java, Spring Boot, Spring Security, Spring Data JPA, Lombok, MySQL, Azure, AWS, IntelliJ.
-          <a className="Link" href='https://github.com/ksmaprince/MovieValut-WebServices' target='_blank'> See on Github</a>
-          <br/><br/>
           </p>
         </div>
       </div>
