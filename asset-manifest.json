@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.afabf627.css",
-    "main.js": "/myportfolio/static/js/main.35bd9ac1.js",
+    "main.js": "/myportfolio/static/js/main.9add5f35.js",
     "static/media/HtwettoeApp.png": "/myportfolio/static/media/HtwettoeApp.5e67f008debdddca1898.png",
     "static/media/APlusWalletApp.png": "/myportfolio/static/media/APlusWalletApp.1d358a9070b8012128f7.png",
     "static/media/AYAPayWallet.png": "/myportfolio/static/media/AYAPayWallet.f4dee02a3b71cffa9254.png",
@@ -12,10 +12,10 @@
     "static/media/Yin_Wai_Naing_Resume.pdf": "/myportfolio/static/media/Yin_Wai_Naing_Resume.90b1fcd6549d1012792e.pdf",
     "index.html": "/myportfolio/index.html",
     "main.afabf627.css.map": "/myportfolio/static/css/main.afabf627.css.map",
-    "main.35bd9ac1.js.map": "/myportfolio/static/js/main.35bd9ac1.js.map"
+    "main.9add5f35.js.map": "/myportfolio/static/js/main.9add5f35.js.map"
   },
   "entrypoints": [
     "static/css/main.afabf627.css",
-    "static/js/main.35bd9ac1.js"
+    "static/js/main.9add5f35.js"
   ]
 }
