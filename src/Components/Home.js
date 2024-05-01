@@ -1,13 +1,9 @@
 import React from 'react';
 import Lottie from  "lottie-react";
 import Typed from "./Typed.js";
-import Skills from './Skills.js';
 import Tilt from 'react-parallax-tilt';
 import Grace from '../images/grace.jpg'
 import CoderGuy from '../LottieFiles/coder-man2.json'
-import CoderBoy from '../LottieFiles/coderboy.json'
-import { ImPointRight } from "react-icons/im";
-import GitHubCalendar from 'react-github-calendar';
 
 const Home = () => {
   return (
