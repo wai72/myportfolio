@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.afabf627.css",
+    "main.js": "/myportfolio/static/js/main.35bd9ac1.js",
+    "static/media/HtwettoeApp.png": "/myportfolio/static/media/HtwettoeApp.5e67f008debdddca1898.png",
+    "static/media/APlusWalletApp.png": "/myportfolio/static/media/APlusWalletApp.1d358a9070b8012128f7.png",
+    "static/media/AYAPayWallet.png": "/myportfolio/static/media/AYAPayWallet.f4dee02a3b71cffa9254.png",
+    "static/media/PayboltWalletApp.png": "/myportfolio/static/media/PayboltWalletApp.f675c714689e7cc3c36e.png",
+    "static/media/AYAPayMerchant.png": "/myportfolio/static/media/AYAPayMerchant.893b822b2b7c09727fcd.png",
+    "static/media/PayboltBusiness.png": "/myportfolio/static/media/PayboltBusiness.8a873967d3291ea9b453.png",
+    "static/media/grace.jpg": "/myportfolio/static/media/grace.0b0efc0b31a9a22c38c2.jpg",
+    "static/media/Yin_Wai_Naing_Resume.pdf": "/myportfolio/static/media/Yin_Wai_Naing_Resume.90b1fcd6549d1012792e.pdf",
+    "index.html": "/myportfolio/index.html",
+    "main.afabf627.css.map": "/myportfolio/static/css/main.afabf627.css.map",
+    "main.35bd9ac1.js.map": "/myportfolio/static/js/main.35bd9ac1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afabf627.css",
+    "static/js/main.35bd9ac1.js"
+  ]
+}
