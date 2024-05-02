@@ -642,3 +642,10 @@ footer h4{
   justify-content: center;
   gap: 20px;
 }
+
+.storeIcon{
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  margin: 20px 0px;
+}

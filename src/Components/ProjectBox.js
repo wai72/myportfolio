@@ -1,5 +1,7 @@
 import React from 'react'
 import GooglePlayButton from 'react-mobile-store-button'
+import PlayStoreButton from '../images/playstore.png'
+import AppStoreButton from '../images/appstore.png'
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
@@ -16,7 +18,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     AYAPayMerchantAppStore: "https://apps.apple.com/us/app/aya-pay-merchant/id1485836285",
 
     PayboltBusinessDesc: "Our crypto wallet (merchant) app is designed to empower businesses to accept cryptocurrency payments seamlessly and securely. With our app, merchants can tap into the growing world of digital currencies and offer customers a modern and convenient payment option",
-    PayboltBusinessPlayStore: "https://apps.apple.com/us/app/paybolt-business/id1612770866",
+    PayboltBusinessPlayStore: "https://play.google.com/store/apps/details?id=com.fincrypt.payboltmerchant",
     PayboltBusinessAppStore: "https://apps.apple.com/us/app/paybolt-business/id1612770866",
 
     HtwettoeDesc: "Our farmer support app is a digital platform designed to empower farmers and enhance agricultural productivity. With our app, farmers can access valuable resources, receive timely advice, and connect with experts to optimize their farming practices.",
@@ -42,17 +44,19 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
             <br />
             <p className='projectDesc'>{desc[projectName + 'Desc']}</p>
             <br />
-            <div>
-              <GooglePlayButton
+            <div className='x-flex'>
+            <a href={desc[projectName+"PlayStore"]} target='_blank'>
+              <img className='storeIcon' src={PlayStoreButton}/> 
+            </a>
+            <a href={desc[projectName+"AppStore"]} target='_blank'>
+              <img className='storeIcon' src={AppStoreButton} /> 
+            </a>
+              {/* <GooglePlayButton
                 className={"custom-style"}
                 store={"android"}
                 url={desc[projectName+"PlayStore"]}
-                linkProps={{ title: 'Store Button' }}/>
+                linkProps={{ title: 'Store Button' }}/> */}
             </div>
-              {/* <div className='x-flex'>
-             <MobileStoreButton store="android" width={150} url={desc[projectName+"PlayStore"]} linkProps={{title: "Android Store Button"}} />
-            <MobileStoreButton store="ios" width={150} url={'https://apps.apple.com/us/app/paybolt-business/id1612770866'} linkProps={{title: "Android Store Button"}} />
-             </div> */}
          </div>
          </div>
   )

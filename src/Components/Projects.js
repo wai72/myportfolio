@@ -34,7 +34,7 @@ const Projects = () => {
       <br/>
       <br/>
       <div className='project'>
-        {/* <ProjectBox projectPhoto={APlusImage} projectName="APlusEWallet"/> */}
+        <ProjectBox projectPhoto={APlusImage} projectName="APlusEWallet"/>
         <ProjectBox projectPhoto={PayboltWalletImage} projectName="PayboltCrypto" />
         <ProjectBox projectPhoto={AYAPayMerchantImage} projectName="AYAPayMerchant" />
         <ProjectBox projectPhoto={PayboltBusinessImage} projectName="PayboltBusiness" />
