@@ -22,7 +22,7 @@ const About = () => {
           <p>
             Hi, my name is <b>Grace</b> and I am from Yangon, Myanmar.
             I'm a Software Engineer specializing in <b>Mobile development</b> . <br/><br/>
-            I have <b>7 years of experiences</b> in developing Android Mobile Applications in financial industry.
+            I have <b>7 years of experiences</b> in developing Mobile Applications in financial industry.
             I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
           </p>
@@ -58,8 +58,6 @@ const About = () => {
         <Skills skill='Javascript' />
         <Skills skill='Npm' />
         <Skills skill='Flutter' />
-        <Skills skill='Javascript' />
-        <Skills skill='Npm' />
       </div>
 
       <h1 className='SkillsHeading'><b>Tools</b> I use</h1>
